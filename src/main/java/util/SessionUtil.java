@@ -33,7 +33,7 @@ public class SessionUtil {
         configuration.setProperty("hibernate.connection.driver_class", "com.mysql.cj.jdbc.Driver");
         configuration.setProperty("hibernate.connection.url", "jdbc:mysql://127.0.0.1:3306/tanya?serverTimezone=Europe/Moscow");
         configuration.setProperty("hibernate.connection.username", "root");
-        configuration.setProperty("hibernate.connection.password", "Veranda-88");
+        configuration.setProperty("hibernate.connection.password", "root");
         configuration.setProperty("hibernate.show_sql", "true");
         configuration.setProperty("hibernate.hbm2ddl.auto", "create-drop");
         StandardServiceRegistryBuilder builder = new StandardServiceRegistryBuilder();
